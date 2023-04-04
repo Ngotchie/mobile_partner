@@ -171,6 +171,7 @@ class _LoginPageState extends State<LoginPage> {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
             'X-Authorization': apiKey,
+            'Access-Control-Allow-Origin': '*',
           },
           body: jsonEncode(<String, String>{'email': email, 'password': pass}));
       if (data.statusCode == 200) {
