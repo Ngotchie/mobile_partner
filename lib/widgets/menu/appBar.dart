@@ -30,7 +30,7 @@ PreferredSizeWidget? appBar(title, context, position) {
     // titleSpacing: 0,
     actions: <Widget>[
       PopupMenuButton(
-        iconColor: const Color(0xFFFFFFFF),
+        color: const Color(0xFFFFFFFF),
         itemBuilder: (BuildContext bc) => [
           const PopupMenuItem(value: "/logout", child: Text("Logout")),
         ],

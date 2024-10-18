@@ -39,8 +39,8 @@ class _MyBookingWidgetState extends State<MyBookingWidget> {
                     BoxDecoration(borderRadius: BorderRadius.circular(20)),
                 child: TextButton(
                   style: ButtonStyle(
-                    backgroundColor:
-                        WidgetStateProperty.all<Color>(const Color(0xFF244B6B)),
+                    backgroundColor: MaterialStateProperty.all<Color>(
+                        const Color(0xFF244B6B)),
                   ),
                   onPressed: () {
                     addBlockDate(context, widget.user.thirdParty["id"]);
@@ -58,8 +58,8 @@ class _MyBookingWidgetState extends State<MyBookingWidget> {
                     BoxDecoration(borderRadius: BorderRadius.circular(20)),
                 child: TextButton(
                   style: ButtonStyle(
-                    backgroundColor:
-                        WidgetStateProperty.all<Color>(const Color(0xFF244B6B)),
+                    backgroundColor: MaterialStateProperty.all<Color>(
+                        const Color(0xFF244B6B)),
                   ),
                   onPressed: () {
                     addBooking(
@@ -142,7 +142,8 @@ class _MyBookingWidgetState extends State<MyBookingWidget> {
                                             border: Border.all(
                                                 color: Colors.grey, width: 0.5),
                                             borderRadius: const BorderRadius
-                                                .all(Radius.circular(
+                                                    .all(
+                                                Radius.circular(
                                                     5.0) //         <--- border radius here
                                                 ),
                                           ),
@@ -611,7 +612,7 @@ class _MyBookingWidgetState extends State<MyBookingWidget> {
                       BoxDecoration(borderRadius: BorderRadius.circular(20)),
                   child: TextButton(
                     style: ButtonStyle(
-                      backgroundColor: WidgetStateProperty.all<Color>(
+                      backgroundColor: MaterialStateProperty.all<Color>(
                           const Color(0xFF244B6B)),
                     ),
                     onPressed: () {
@@ -688,7 +689,7 @@ class _MyBookingWidgetState extends State<MyBookingWidget> {
                   child: TextButton(
                     style: ButtonStyle(
                       backgroundColor:
-                          WidgetStateProperty.all<Color>(Colors.grey),
+                          MaterialStateProperty.all<Color>(Colors.grey),
                     ),
                     onPressed: () {
                       Navigator.pop(context);
@@ -1895,7 +1896,7 @@ class _MyBookingWidgetState extends State<MyBookingWidget> {
                       BoxDecoration(borderRadius: BorderRadius.circular(20)),
                   child: TextButton(
                     style: ButtonStyle(
-                      backgroundColor: WidgetStateProperty.all<Color>(
+                      backgroundColor: MaterialStateProperty.all<Color>(
                           const Color(0xFF244B6B)),
                     ),
                     onPressed: () {
@@ -1974,7 +1975,7 @@ class _MyBookingWidgetState extends State<MyBookingWidget> {
                   child: TextButton(
                     style: ButtonStyle(
                       backgroundColor:
-                          WidgetStateProperty.all<Color>(Colors.grey),
+                          MaterialStateProperty.all<Color>(Colors.grey),
                     ),
                     onPressed: () {
                       Navigator.pop(context);
@@ -2418,7 +2419,7 @@ class _MyBookingWidgetState extends State<MyBookingWidget> {
                                     child: TextButton(
                                       style: ButtonStyle(
                                         backgroundColor:
-                                            WidgetStateProperty.all<Color>(
+                                            MaterialStateProperty.all<Color>(
                                                 Colors.green),
                                       ),
                                       onPressed: () {

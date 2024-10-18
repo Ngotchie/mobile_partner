@@ -110,7 +110,7 @@ class _BookingAccommodationWidgetState
                                 )));
                   },
                   style: ButtonStyle(
-                      backgroundColor: WidgetStateProperty.all<Color>(
+                      backgroundColor: MaterialStateProperty.all<Color>(
                           accommodation['status'] == 'exploiting'
                               ? const Color(0xFF05A8CF)
                               : const Color.fromARGB(255, 132, 146, 150))),

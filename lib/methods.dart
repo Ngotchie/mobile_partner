@@ -323,7 +323,7 @@ class Methods {
                               child: TextButton(
                                 style: ButtonStyle(
                                   backgroundColor:
-                                      WidgetStateProperty.all<Color>(
+                                      MaterialStateProperty.all<Color>(
                                           Colors.green),
                                 ),
                                 onPressed: () {
@@ -607,7 +607,7 @@ class Methods {
                       BoxDecoration(borderRadius: BorderRadius.circular(20)),
                   child: TextButton(
                     style: ButtonStyle(
-                      backgroundColor: WidgetStateProperty.all<Color>(
+                      backgroundColor: MaterialStateProperty.all<Color>(
                           const Color(0xfffff37540)),
                     ),
                     onPressed: () {
@@ -683,7 +683,7 @@ class Methods {
                   child: TextButton(
                     style: ButtonStyle(
                       backgroundColor:
-                          WidgetStateProperty.all<Color>(Colors.grey),
+                          MaterialStateProperty.all<Color>(Colors.grey),
                     ),
                     onPressed: () {
                       Navigator.pop(context);

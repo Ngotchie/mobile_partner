@@ -40,7 +40,7 @@ class _OperationIndexWidgetState extends State<OperationIndexWidget> {
                       style: TextStyle(color: Color(0xFFFFFFFF)),
                     ),
                     style: ButtonStyle(
-                      backgroundColor: WidgetStateProperty.all<Color>(
+                      backgroundColor: MaterialStateProperty.all<Color>(
                           const Color(0xFF8B1FA9)), //0xFFd1b690
                     ),
                     onPressed: () {
@@ -67,7 +67,7 @@ class _OperationIndexWidgetState extends State<OperationIndexWidget> {
                       style: TextStyle(color: Color(0xFFFFFFFF)),
                     ),
                     style: ButtonStyle(
-                      backgroundColor: WidgetStateProperty.all<Color>(
+                      backgroundColor: MaterialStateProperty.all<Color>(
                           const Color(0xFF54bf31)), //0xFFd49f55
                     ),
                     onPressed: () {

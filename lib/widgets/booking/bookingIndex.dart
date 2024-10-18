@@ -50,7 +50,7 @@ class _BookingIndexWidgetState extends State<BookingIndexWidget> {
           ),
           actions: <Widget>[
             PopupMenuButton(
-              iconColor: const Color(0xFFFFFFFF),
+              color: const Color(0xFFFFFFFF),
               itemBuilder: (BuildContext bc) => [
                 const PopupMenuItem(value: "/logout", child: Text("Logout")),
               ],

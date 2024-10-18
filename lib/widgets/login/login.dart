@@ -121,7 +121,7 @@ class _LoginPageState extends State<LoginPage> {
       child: TextButton(
         style: ButtonStyle(
           backgroundColor:
-              WidgetStateProperty.all<Color>(const Color(0xFF244B6B)),
+              MaterialStateProperty.all<Color>(const Color(0xFF244B6B)),
         ),
         onPressed: () async {
           if (_formKey.currentState!.validate()) {

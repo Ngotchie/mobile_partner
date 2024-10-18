@@ -40,7 +40,7 @@ class _FinanceIndexWidgetState extends State<FinanceIndexWidget> {
                       style: TextStyle(color: Color(0xFFFFFFFF)),
                     ),
                     style: ButtonStyle(
-                      backgroundColor: WidgetStateProperty.all<Color>(
+                      backgroundColor: MaterialStateProperty.all<Color>(
                           const Color(0xFFFBD107)),
                     ),
                     onPressed: () {
@@ -65,7 +65,7 @@ class _FinanceIndexWidgetState extends State<FinanceIndexWidget> {
                     label: const Text('Monthly Reports',
                         style: TextStyle(color: Color(0xFFFFFFFF))),
                     style: ButtonStyle(
-                      backgroundColor: WidgetStateProperty.all<Color>(
+                      backgroundColor: MaterialStateProperty.all<Color>(
                           const Color(0xFF244B6B)),
                     ),
                     onPressed: () {
@@ -90,7 +90,7 @@ class _FinanceIndexWidgetState extends State<FinanceIndexWidget> {
                     label: const Text('Payouts',
                         style: TextStyle(color: Color(0xFFFFFFFF))),
                     style: ButtonStyle(
-                      backgroundColor: WidgetStateProperty.all<Color>(
+                      backgroundColor: MaterialStateProperty.all<Color>(
                           const Color(0xFF8B1FA9)),
                     ),
                     onPressed: () {
@@ -114,7 +114,7 @@ class _FinanceIndexWidgetState extends State<FinanceIndexWidget> {
                     label: const Text('Yearly Payouts Reports',
                         style: TextStyle(color: Color(0xFFFFFFFF))),
                     style: ButtonStyle(
-                      backgroundColor: WidgetStateProperty.all<Color>(
+                      backgroundColor: MaterialStateProperty.all<Color>(
                           const Color(0xFF54bf31)),
                     ),
                     onPressed: () {
